@@ -30,6 +30,7 @@ body{
  height: 50px;
  border-radius: 5%;
  border: solid red 1px;
+
 }
 
 .button{
@@ -41,3 +42,12 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.sep1{
+    display: flex;
+   
+}
+
+
+
+
