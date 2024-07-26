@@ -22,17 +22,34 @@ body{
     width:400px;
     height: 600px;
     border: solid black 1px;
-    background-color:hsl(234, 85%, 45%)
+    background-color:hsl(252, 100%, 67%)
 }
-
+.circle{
+    width: 130px;
+    height: 130px;
+    border-radius: 60%;
+    border: solid red 1px;
+}
 .obj {
  width: 220px;
  height: 50px;
  border-radius: 5%;
  border: solid red 1px;
+ background-color: hsl(221, 100%, 96%);
 
 }
 
+.visual{
+    background-color:  hsl(241, 100%, 89%);
+}
+
+.verbal{
+    background-color: hsl(166, 100%, 37%);
+}
+
+.memory{
+    background-color: hsl(39, 100%, 56%);
+}
 .button{
     width: 220px;
     height: 50px;
@@ -45,9 +62,17 @@ body{
 
 .sep1{
     display: flex;
-   
+    column-gap: 40px;
+} 
+
+.sep1t{
+  
+    position: relative;
+    right: 35px;
 }
 
 
+.button{
 
-
+    color: hsl(39, 100%, 56%);
+}
